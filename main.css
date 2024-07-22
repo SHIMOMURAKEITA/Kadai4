@@ -82,3 +82,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* 特定のリンクに下線を入れない */
+p a, .toc a {
+    text-decoration: none;
+}
+
+p a:hover, .toc a:hover {
+    text-decoration: underline;
+}
