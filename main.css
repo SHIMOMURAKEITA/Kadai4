@@ -1,1 +1,30 @@
+.toc {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.toc ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.toc ul li {
+    margin-bottom: 5px;
+}
+.toc ul li a {
+    text-decoration: none;
+    color: #00f;
+}
+.toc ul li a:hover {
+    text-decoration: underline;
+}
 
+/* コンテンツのスタイル */
+h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+p {
+    margin-top: 10px;
+}
