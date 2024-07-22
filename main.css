@@ -1,8 +1,36 @@
+/* ベースのスタイル */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+/* 目次のスタイル */
 .toc {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     padding: 10px;
     border: 1px solid #ddd;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.toc h2 {
+    margin-top: 0;
 }
 .toc ul {
     list-style-type: none;
@@ -13,18 +41,44 @@
 }
 .toc ul li a {
     text-decoration: none;
-    color: #00f;
+    color: #4CAF50;
 }
 .toc ul li a:hover {
     text-decoration: underline;
 }
 
 /* コンテンツのスタイル */
-h2 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-    margin-top: 30px;
+.section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-p {
-    margin-top: 10px;
+
+.section h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.section p {
+    margin: 10px 0;
+}
+
+/* リンクのスタイル */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
